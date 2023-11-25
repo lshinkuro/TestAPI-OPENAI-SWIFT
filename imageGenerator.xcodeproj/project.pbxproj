@@ -14,6 +14,11 @@
 		362669642B11CB4A00488748 /* imageGeneratorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 362669632B11CB4A00488748 /* imageGeneratorTests.swift */; };
 		3626696E2B11CB4A00488748 /* imageGeneratorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3626696D2B11CB4A00488748 /* imageGeneratorUITests.swift */; };
 		362669702B11CB4A00488748 /* imageGeneratorUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3626696F2B11CB4A00488748 /* imageGeneratorUITestsLaunchTests.swift */; };
+		3626697D2B11CB6500488748 /* ImageGeneratorViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3626697C2B11CB6500488748 /* ImageGeneratorViewModel.swift */; };
+		362669802B11CC0A00488748 /* OpenAIKit in Frameworks */ = {isa = PBXBuildFile; productRef = 3626697F2B11CC0A00488748 /* OpenAIKit */; };
+		362669852B11D29C00488748 /* netfox in Frameworks */ = {isa = PBXBuildFile; productRef = 362669842B11D29C00488748 /* netfox */; };
+		362669882B12144B00488748 /* audio.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 362669872B12144B00488748 /* audio.mp3 */; };
+		3626698A2B12145300488748 /* audio_translation.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 362669892B12145300488748 /* audio_translation.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +49,10 @@
 		362669692B11CB4A00488748 /* imageGeneratorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = imageGeneratorUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3626696D2B11CB4A00488748 /* imageGeneratorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = imageGeneratorUITests.swift; sourceTree = "<group>"; };
 		3626696F2B11CB4A00488748 /* imageGeneratorUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = imageGeneratorUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		3626697C2B11CB6500488748 /* ImageGeneratorViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageGeneratorViewModel.swift; sourceTree = "<group>"; };
+		362669812B11CD9D00488748 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		362669872B12144B00488748 /* audio.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = audio.mp3; sourceTree = "<group>"; };
+		362669892B12145300488748 /* audio_translation.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = audio_translation.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +60,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				362669852B11D29C00488748 /* netfox in Frameworks */,
+				362669802B11CC0A00488748 /* OpenAIKit in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -94,10 +105,14 @@
 		362669512B11CB4800488748 /* imageGenerator */ = {
 			isa = PBXGroup;
 			children = (
+				362669812B11CD9D00488748 /* Info.plist */,
 				362669522B11CB4800488748 /* imageGeneratorApp.swift */,
 				362669542B11CB4800488748 /* ContentView.swift */,
+				362669892B12145300488748 /* audio_translation.mp3 */,
+				362669872B12144B00488748 /* audio.mp3 */,
 				362669562B11CB4A00488748 /* Assets.xcassets */,
 				362669582B11CB4A00488748 /* Preview Content */,
+				3626697C2B11CB6500488748 /* ImageGeneratorViewModel.swift */,
 			);
 			path = imageGenerator;
 			sourceTree = "<group>";
@@ -143,6 +158,10 @@
 			dependencies = (
 			);
 			name = imageGenerator;
+			packageProductDependencies = (
+				3626697F2B11CC0A00488748 /* OpenAIKit */,
+				362669842B11D29C00488748 /* netfox */,
+			);
 			productName = imageGenerator;
 			productReference = 3626694F2B11CB4800488748 /* imageGenerator.app */;
 			productType = "com.apple.product-type.application";
@@ -215,6 +234,10 @@
 				Base,
 			);
 			mainGroup = 362669462B11CB4800488748;
+			packageReferences = (
+				3626697E2B11CC0A00488748 /* XCRemoteSwiftPackageReference "OpenAIKit" */,
+				362669832B11D29C00488748 /* XCRemoteSwiftPackageReference "netfox" */,
+			);
 			productRefGroup = 362669502B11CB4800488748 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -232,7 +255,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				3626695A2B11CB4A00488748 /* Preview Assets.xcassets in Resources */,
+				362669882B12144B00488748 /* audio.mp3 in Resources */,
 				362669572B11CB4A00488748 /* Assets.xcassets in Resources */,
+				3626698A2B12145300488748 /* audio_translation.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -257,6 +282,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3626697D2B11CB6500488748 /* ImageGeneratorViewModel.swift in Sources */,
 				362669552B11CB4800488748 /* ContentView.swift in Sources */,
 				362669532B11CB4800488748 /* imageGeneratorApp.swift in Sources */,
 			);
@@ -420,7 +446,7 @@
 				DEVELOPMENT_TEAM = YPD3TP4P79;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_FILE = imageGenerator/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
@@ -449,7 +475,7 @@
 				DEVELOPMENT_TEAM = YPD3TP4P79;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_FILE = imageGenerator/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
@@ -583,6 +609,38 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		3626697E2B11CC0A00488748 /* XCRemoteSwiftPackageReference "OpenAIKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/MarcoDotIO/OpenAIKit";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.0;
+			};
+		};
+		362669832B11D29C00488748 /* XCRemoteSwiftPackageReference "netfox" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/kasketis/netfox";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		3626697F2B11CC0A00488748 /* OpenAIKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 3626697E2B11CC0A00488748 /* XCRemoteSwiftPackageReference "OpenAIKit" */;
+			productName = OpenAIKit;
+		};
+		362669842B11D29C00488748 /* netfox */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 362669832B11D29C00488748 /* XCRemoteSwiftPackageReference "netfox" */;
+			productName = netfox;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 362669472B11CB4800488748 /* Project object */;
 }

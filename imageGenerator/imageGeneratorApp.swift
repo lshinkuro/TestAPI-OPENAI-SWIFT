@@ -6,9 +6,12 @@
 //
 
 import SwiftUI
+import netfox
 
 @main
 struct imageGeneratorApp: App {
+    
+
     var body: some Scene {
         WindowGroup {
             ContentView()

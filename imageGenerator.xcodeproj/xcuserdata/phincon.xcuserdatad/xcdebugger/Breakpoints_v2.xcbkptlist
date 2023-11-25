@@ -1,0 +1,261 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "58221E2F-8531-4EE2-A5AE-90CBF5CF5361"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "58A435E5-BE76-4D2B-B362-180209FDD394"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "imageGenerator/ImageGeneratorViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "70"
+            endingLineNumber = "70"
+            landmarkName = "generateImage()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "D3021B82-7FA5-4621-A0A2-0DB82D8A0FDA"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "imageGenerator/ImageGeneratorViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "74"
+            endingLineNumber = "74"
+            landmarkName = "generateImage()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "D3021B82-7FA5-4621-A0A2-0DB82D8A0FDA - b2ef753c8b79e8bc"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(1) suspend resume partial function for imageGenerator.ViewModel.generateImage() async -&gt; Swift.Optional&lt;__C.UIImage&gt;"
+                  moduleName = "imageGenerator"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/phincon/Documents/swift/imageGenerator/imageGenerator/ImageGeneratorViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "75"
+                  endingLineNumber = "75"
+                  offsetFromSymbolStart = "360">
+               </Location>
+               <Location
+                  uuid = "D3021B82-7FA5-4621-A0A2-0DB82D8A0FDA - 6fa0b233ac9754be"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(3) suspend resume partial function for imageGenerator.ViewModel.generateImage() async -&gt; Swift.Optional&lt;__C.UIImage&gt;"
+                  moduleName = "imageGenerator"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/phincon/Documents/swift/imageGenerator/imageGenerator/ImageGeneratorViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "75"
+                  endingLineNumber = "75"
+                  offsetFromSymbolStart = "468">
+               </Location>
+               <Location
+                  uuid = "D3021B82-7FA5-4621-A0A2-0DB82D8A0FDA - 31ded2b4c3c3f6bf"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(4) suspend resume partial function for imageGenerator.ViewModel.generateImage() async -&gt; Swift.Optional&lt;__C.UIImage&gt;"
+                  moduleName = "imageGenerator"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/phincon/Documents/swift/imageGenerator/imageGenerator/ImageGeneratorViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "75"
+                  endingLineNumber = "75"
+                  offsetFromSymbolStart = "472">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "2E03A361-8B5A-47F3-A822-71189836D7AB"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "imageGenerator/ImageGeneratorViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "51"
+            endingLineNumber = "51"
+            landmarkName = "generateImage(from:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "2E03A361-8B5A-47F3-A822-71189836D7AB - 1dddbe9e64a16e5f"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(1) suspend resume partial function for imageGenerator.ViewModel.generateImage(from: Swift.String) async -&gt; Swift.Optional&lt;__C.UIImage&gt;"
+                  moduleName = "imageGenerator"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/phincon/Documents/swift/imageGenerator/imageGenerator/ImageGeneratorViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "53"
+                  endingLineNumber = "53"
+                  offsetFromSymbolStart = "364">
+               </Location>
+               <Location
+                  uuid = "2E03A361-8B5A-47F3-A822-71189836D7AB - 6e84a04efb3c235d"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(3) suspend resume partial function for imageGenerator.ViewModel.generateImage(from: Swift.String) async -&gt; Swift.Optional&lt;__C.UIImage&gt;"
+                  moduleName = "imageGenerator"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/phincon/Documents/swift/imageGenerator/imageGenerator/ImageGeneratorViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "53"
+                  endingLineNumber = "53"
+                  offsetFromSymbolStart = "488">
+               </Location>
+               <Location
+                  uuid = "2E03A361-8B5A-47F3-A822-71189836D7AB - 812b2b56c0fe42da"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(4) suspend resume partial function for imageGenerator.ViewModel.generateImage(from: Swift.String) async -&gt; Swift.Optional&lt;__C.UIImage&gt;"
+                  moduleName = "imageGenerator"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/phincon/Documents/swift/imageGenerator/imageGenerator/ImageGeneratorViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "53"
+                  endingLineNumber = "53"
+                  offsetFromSymbolStart = "488">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "D874C71D-12A9-475C-9BE8-70666384E415"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "imageGenerator/ImageGeneratorViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "101"
+            endingLineNumber = "101"
+            landmarkName = "generateChat(from:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "D874C71D-12A9-475C-9BE8-70666384E415 - ba67dedb0f081664"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(4) suspend resume partial function for imageGenerator.ViewModel.generateChat(from: Swift.String) async -&gt; Swift.Optional&lt;Swift.String&gt;"
+                  moduleName = "imageGenerator"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/phincon/Documents/swift/imageGenerator/imageGenerator/ImageGeneratorViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "101"
+                  endingLineNumber = "101"
+                  offsetFromSymbolStart = "156">
+               </Location>
+               <Location
+                  uuid = "D874C71D-12A9-475C-9BE8-70666384E415 - ba67dedb0f081664"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(4) suspend resume partial function for imageGenerator.ViewModel.generateChat(from: Swift.String) async -&gt; Swift.Optional&lt;Swift.String&gt;"
+                  moduleName = "imageGenerator"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/phincon/Documents/swift/imageGenerator/imageGenerator/ImageGeneratorViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "101"
+                  endingLineNumber = "101"
+                  offsetFromSymbolStart = "176">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "80277E08-14EE-45A2-86B0-2AB7F1489F4F"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "imageGenerator/ImageGeneratorViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "105"
+            endingLineNumber = "105"
+            landmarkName = "generateChat(from:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "80277E08-14EE-45A2-86B0-2AB7F1489F4F - 37182202b3f332a5"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(1) suspend resume partial function for imageGenerator.ViewModel.generateChat(from: Swift.String) async -&gt; Swift.Optional&lt;Swift.String&gt;"
+                  moduleName = "imageGenerator"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/phincon/Documents/swift/imageGenerator/imageGenerator/ImageGeneratorViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "105"
+                  endingLineNumber = "105"
+                  offsetFromSymbolStart = "716">
+               </Location>
+               <Location
+                  uuid = "80277E08-14EE-45A2-86B0-2AB7F1489F4F - 83c357f2c64ef59b"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(3) suspend resume partial function for imageGenerator.ViewModel.generateChat(from: Swift.String) async -&gt; Swift.Optional&lt;Swift.String&gt;"
+                  moduleName = "imageGenerator"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/phincon/Documents/swift/imageGenerator/imageGenerator/ImageGeneratorViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "105"
+                  endingLineNumber = "105"
+                  offsetFromSymbolStart = "356">
+               </Location>
+               <Location
+                  uuid = "80277E08-14EE-45A2-86B0-2AB7F1489F4F - ba67dedb0f081718"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(4) suspend resume partial function for imageGenerator.ViewModel.generateChat(from: Swift.String) async -&gt; Swift.Optional&lt;Swift.String&gt;"
+                  moduleName = "imageGenerator"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/phincon/Documents/swift/imageGenerator/imageGenerator/ImageGeneratorViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "105"
+                  endingLineNumber = "105"
+                  offsetFromSymbolStart = "512">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
