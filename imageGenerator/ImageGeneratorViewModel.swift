@@ -18,7 +18,6 @@ final class ViewModel: ObservableObject {
     private var openAI: OpenAI?
     
     let apiKey2 = ""
-//    let apiKey2 = "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"
 
     
     func setup() {
